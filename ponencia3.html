@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponencia 3 - Anatomía de un ataque ransomware</title>
+    <link rel="icon" href="img/web.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        header {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/LOGO-UNAB.png" alt="Congreso Innovación" style="width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-house-user"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portada.html">
+                            <i class="fas fa-image"></i> Portada
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="introduccion.html">
+                            <i class="fas fa-info-circle"></i> Introducción
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-chalkboard"></i> Ponencias
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="ponencia1.html"><i class="fas fa-file-alt"></i> Ponencia
+                                    1</a></li>
+                            <li><a class="dropdown-item" href="ponencia2.html"><i class="fas fa-file-alt"></i> Ponencia
+                                    2</a></li>
+                            <li><a class="dropdown-item" href="ponencia3.html"><i class="fas fa-file-alt"></i> Ponencia
+                                    3</a></li>
+                            <li><a class="dropdown-item" href="ponencia4.html"><i class="fas fa-file-alt"></i> Ponencia
+                                    4</a></li>
+                            <li><a class="dropdown-item" href="ponencia5.html"><i class="fas fa-file-alt"></i> Ponencia
+                                    5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experiencia.html">
+                            <i class="fas fa-user-check"></i> Experiencia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conclusion.html">
+                            <i class="fas fa-lightbulb"></i> Conclusión
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="anexos.html">
+                            <i class="fas fa-paperclip"></i> Anexos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container py-5">
+        <h2 class="text-white"><i class="fas fa-virus"></i> Ponencia: Anatomía de un ataque ransomware y el uso de IA
+            para detectar anomalías</h2>
+        <p><i class="fas fa-user"></i> Ponente: Ing. Gabriel López</p>
+        <div class="row">
+            <section class="col-md-9">
+                <h3><i class="fas fa-book-open"></i> Apuntes</h3>
+                <p>El ponente habló sobre la triada de seguridad: confidencialidad, integridad y disponibilidad, que son
+                    los pilares para proteger la información. Explicó que el malware es un software malicioso que puede
+                    causar daño, y mencionó los ataques DDoS (denegación de servicio distribuido) y DoS (denegación de
+                    servicio), así como el "drive by", que es un ataque donde los usuarios se infectan al visitar un
+                    sitio web comprometido.</p>
+                <p>Se analizaron las fases de un ciberataque y los diferentes despliegues: protocolos de escritorio,
+                    ataques remotos y explotación de software. También habló sobre phishing (un tipo de fraude) y Shodan
+                    (una herramienta que busca dispositivos conectados a internet).</p>
+                <p>El ponente explicó la anatomía de un ransomware, con énfasis en el ransomware Trigona. Además,
+                    mencionó el análisis de telemetría, cómo ChatGPT puede ayudar a detectar anomalías, y la importancia
+                    de herramientas como Trend Micro y el marco MITRE ATT&CK para entender las tácticas de los
+                    atacantes.</p>
+                <p>Se destacó el modelo OSI, que estoy viendo en la materia de Redes I, y el uso de KeePass como
+                    herramienta de gestión de contraseñas segura.</p>
+
+                <h3><i class="fas fa-star"></i> Lo más sobresaliente</h3>
+                <p>El uso de la inteligencia artificial se ha vuelto fundamental en la detección de anomalías.
+                    Algoritmos avanzados son capaces de identificar patrones de comportamiento inusuales, ayudando a
+                    prevenir ataques antes de que ocurran.</p>
+
+                <h3><i class="fas fa-graduation-cap"></i> Contribución a la preparación académica</h3>
+                <p>Esta ponencia me ha dado una mejor comprensión sobre la ciberseguridad y cómo la inteligencia
+                    artificial puede proteger los datos. También aprendí más sobre la estructura de los ataques y
+                    herramientas clave, lo que será útil en mis estudios de tecnología de la información.</p>
+            </section>
+
+            <aside class="col-md-3">
+                <div class="bg-dark text-white p-3 rounded">
+                    <h4 class="text-center">Glosario</h4>
+                    <ul style="font-size: 0.9em;">
+                        <li>💻 <strong>Malware:</strong> Software malicioso diseñado para dañar, interrumpir o acceder a
+                            sistemas informáticos sin autorización.</li>
+                        <li>🌐 <strong>DDoS:</strong> Ataque de denegación de servicio distribuido que busca hacer que
+                            un servicio sea inalcanzable al abrumarlo con tráfico.</li>
+                        <li>🔒 <strong>Phishing:</strong> Técnica de fraude en línea donde se engaña a los usuarios para
+                            que revelen información personal.</li>
+                        <li>📊 <strong>Telemetría:</strong> Proceso de recopilar y analizar datos a distancia para
+                            monitorizar el estado de un sistema.</li>
+                        <li>🔍 <strong>MITRE ATT&CK:</strong> Marco de conocimiento sobre tácticas y técnicas que
+                            utilizan los atacantes en ciberseguridad.</li>
+                    </ul>
+                    <img src="img/ransomware.gif" class="img-fluid rounded" alt="Un Gran Dinosaurio" />
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'js/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+
+</html>

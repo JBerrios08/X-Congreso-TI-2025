@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada - IX Congreso Internacional de Tecnología e Innovación</title>
+    <link rel="icon" href="img/web.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        header {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/LOGO-UNAB.png" alt="Congreso Innovación" style="width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">
+                            <i class="fas fa-house-user"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="portada.html">
+                            <i class="fas fa-image"></i> Portada
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="introduccion.html">
+                            <i class="fas fa-info-circle"></i> Introducción
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-chalkboard"></i> Ponencias
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="ponencia1.html"><i class="fas fa-file-alt"></i> Ponencia 1</a></li>
+                            <li><a class="dropdown-item" href="ponencia2.html"><i class="fas fa-file-alt"></i> Ponencia 2</a></li>
+                            <li><a class="dropdown-item" href="ponencia3.html"><i class="fas fa-file-alt"></i> Ponencia 3</a></li>
+                            <li><a class="dropdown-item" href="ponencia4.html"><i class="fas fa-file-alt"></i> Ponencia 4</a></li>
+                            <li><a class="dropdown-item" href="ponencia5.html"><i class="fas fa-file-alt"></i> Ponencia 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experiencia.html">
+                            <i class="fas fa-user-check"></i> Experiencia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conclusion.html">
+                            <i class="fas fa-lightbulb"></i> Conclusión
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="anexos.html">
+                            <i class="fas fa-paperclip"></i> Anexos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+        <img src="img/LOGO UNAB.png" alt="Logo de la Universidad" class="img-fluid mb-4" style="width: 200px;">
+        <h1 class="mb-4">UNIVERSIDAD DR. ANDRÉS BELLO</h1>
+        <h2>Sede: San Miguel</h2>
+        <h3 class="my-4">Facultad: Tecnología e Innovación</h3>
+        <h4 class="my-4">IX Congreso Internacional de Tecnología e Innovación</h4>
+    
+        <div class="mt-5">
+            <p><strong>Alumno:</strong> Jaime Fernando Berrios Ortiz</p>
+            <p><strong>Fecha del Congreso:</strong> Sábado, 12 de octubre de 2024</p>
+        </div>
+    </div>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'js/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+
+</html>
